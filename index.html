@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automated Commenting for Financial Reporting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════ NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">AutoComment</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#solution">Our Solution</a></li>
+        <li><a href="#idea">The Idea</a></li>
+        <li><a href="#qualitative">Plans</a></li>
+        <li><a href="#value">Value</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════ HERO -->
+  <section class="hero" id="home">
+    <div class="hero-stars" id="stars"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Financial Intelligence · Reimagined</p>
+      <h1 class="hero-title">
+        Automated Commenting<br />
+        <span class="hero-title-accent">for Financial Reporting</span>
+      </h1>
+      <p class="hero-sub">The best report is the one you never have to do.</p>
+      <a href="#solution" class="btn-primary">Ready for automated commenting?</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ VISION -->
+  <section class="vision-section" id="vision">
+    <div class="container">
+      <div class="section-label">Vision</div>
+      <h2 class="section-title">We envision a world where controllers<br />don't explain the past — they shape the future.</h2>
+      <p class="section-sub">
+        Fully automated quantitative and qualitative commenting transforms month-end
+        from reporting to steering, and lays the foundation for intelligent recommendations.
+      </p>
+
+      <!-- Pipeline diagram -->
+      <div class="pipeline" id="solution">
+        <div class="pipeline-step">
+          <div class="step-icon step-icon--dim">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+          </div>
+          <span class="step-label">Get Data</span>
+          <span class="step-sublabel">Profit Agent</span>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-step pipeline-step--focus">
+          <div class="step-icon step-icon--bright">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <span class="step-label">Explain Data</span>
+          <span class="step-badge">Core Focus</span>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-step">
+          <div class="step-icon step-icon--dim">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <span class="step-label">Recommend Actions</span>
+          <span class="step-sublabel">Bright Future</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ THE IDEA -->
+  <section class="idea-section" id="idea">
+    <div class="container">
+      <div class="section-label">The Idea</div>
+      <h2 class="section-title">What is Automated Commenting, exactly?</h2>
+      <p class="section-sub">From raw data to intelligent narrative — here is how the system works end to end.</p>
+
+      <div class="idea-grid">
+
+        <!-- Left: User scope -->
+        <div class="idea-card idea-card--tall">
+          <div class="idea-card-header">
+            <span class="idea-tag">Scope</span>
+            <h3>Who uses it</h3>
+          </div>
+          <div class="idea-scope-rows">
+            <div class="idea-scope-row">
+              <div class="scope-icon scope-icon--primary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div>
+                <strong>MVP Scope</strong>
+                <span>Top management — fast, high-level insights from low-hanging fruit</span>
+              </div>
+            </div>
+            <div class="idea-scope-divider"></div>
+            <div class="idea-scope-row">
+              <div class="scope-icon scope-icon--secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div>
+                <strong>Full Scope</strong>
+                <span>Operational controllers + top management — complete automated commentary</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center: Flow -->
+        <div class="idea-flow">
+          <div class="idea-flow-step">
+            <div class="flow-num">01</div>
+            <div class="flow-content">
+              <h4>ERIC triggers generation</h4>
+              <p>When ERIC data is available, it automatically triggers the comment generation pipeline — no manual kick-off needed.</p>
+            </div>
+          </div>
+          <div class="flow-connector"></div>
+          <div class="idea-flow-step">
+            <div class="flow-num">02</div>
+            <div class="flow-content">
+              <h4>Quantitative comments via MAISTRO</h4>
+              <p>Numbers are explained automatically using MAISTRO skill — no additional development required.</p>
+            </div>
+          </div>
+          <div class="flow-connector"></div>
+          <div class="idea-flow-step">
+            <div class="flow-num">03</div>
+            <div class="flow-content">
+              <h4>Agent generates qualitative comments</h4>
+              <p>The agent applies specific rules per deviation type &amp; effect, then cross-validates qualitative against quantitative comments.</p>
+            </div>
+          </div>
+          <div class="flow-connector"></div>
+          <div class="idea-flow-step">
+            <div class="flow-num">04</div>
+            <div class="flow-content">
+              <h4>Controller validates</h4>
+              <p>Human-in-the-loop: controller reviews and approves comments before they are saved to the database.</p>
+            </div>
+          </div>
+          <div class="flow-connector"></div>
+          <div class="idea-flow-step idea-flow-step--final">
+            <div class="flow-num">05</div>
+            <div class="flow-content">
+              <h4>MAISTRO monthly report</h4>
+              <p>Validated comments feed the orchestrator agent, which assembles the complete monthly report automatically.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Tech foundation -->
+        <div class="idea-card">
+          <div class="idea-card-header">
+            <span class="idea-tag">Foundation</span>
+            <h3>What makes it work</h3>
+          </div>
+          <ul class="idea-tech-list">
+            <li>
+              <div class="tech-dot"></div>
+              <div>
+                <strong>Commenting rules &amp; patterns</strong>
+                <span>Research run on historical comments for every effect &amp; AwA combination</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-dot"></div>
+              <div>
+                <strong>RAG architecture</strong>
+                <span>Retrieval-Augmented Generation ensures contextually accurate commentary</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-dot"></div>
+              <div>
+                <strong>Solid agent rules</strong>
+                <span>Every deviation type has a dedicated rule set the agent follows strictly</span>
+              </div>
+            </li>
+            <li>
+              <div class="tech-dot"></div>
+              <div>
+                <strong>Cross-validation</strong>
+                <span>Agent validates qualitative output against quantitative data before passing to controller</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ QUALITATIVE PLANS -->
+  <section class="plans-section" id="qualitative">
+    <div class="container">
+      <div class="section-label">Qualitative Comments</div>
+      <h2 class="section-title">Two ways to work with qualitative comments</h2>
+      <p class="section-sub">Choose the approach that matches your maturity level — start with extraction and grow towards full AI generation.</p>
+
+      <div class="plans-grid">
+
+        <!-- Plan 1: Extraction -->
+        <div class="plan-card">
+          <div class="plan-header">
+            <span class="plan-tier">Low-hanging fruit</span>
+            <h3 class="plan-name">Extraction</h3>
+            <p class="plan-desc">MVP scope for top management. Pull structured insights from existing data sources with minimal configuration.</p>
+          </div>
+          <div class="plan-badge-row">
+            <span class="plan-badge plan-badge--green">MVP Ready</span>
+            <span class="plan-badge plan-badge--outline">Faster to deploy</span>
+          </div>
+          <a href="#contact" class="plan-btn plan-btn--secondary">Get started</a>
+          <div class="plan-features">
+            <p class="plan-features-label">What's included:</p>
+            <ul>
+              <li>
+                <span class="feat-dot"></span>
+                Automated extraction of quantitative comments via MAISTRO skill
+              </li>
+              <li>
+                <span class="feat-dot"></span>
+                Automated extraction of qualitative comments from existing FMS sources (currently PPT)
+              </li>
+              <li>
+                <span class="feat-dot"></span>
+                Human-in-the-loop validation UI
+              </li>
+              <li>
+                <span class="feat-dot"></span>
+                Full monthly report in MAISTRO (all comments in)
+              </li>
+              <li>
+                <span class="feat-dot"></span>
+                Top management dashboard view
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Plan 2: Generation -->
+        <div class="plan-card plan-card--featured">
+          <div class="plan-popular-badge">Highest potential</div>
+          <div class="plan-header">
+            <span class="plan-tier">High-hanging fruit</span>
+            <h3 class="plan-name">Generation</h3>
+            <p class="plan-desc">Full scope for operational controllers and top management. AI generates complete qualitative commentary end-to-end.</p>
+          </div>
+          <div class="plan-badge-row">
+            <span class="plan-badge plan-badge--blue">Future scope</span>
+            <span class="plan-badge plan-badge--outline-light">Biggest impact</span>
+          </div>
+          <a href="#contact" class="plan-btn plan-btn--primary">Get started</a>
+          <div class="plan-features">
+            <p class="plan-features-label">Everything in Extraction, plus:</p>
+            <ul>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Full qualitative comment generation by AI agent
+              </li>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Agent-level cross-validation (qualitative vs quantitative)
+              </li>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Operational controller workflow integration
+              </li>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Custom rules per AwA &amp; effect combination
+              </li>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Full MAISTRO orchestrator monthly report
+              </li>
+              <li>
+                <span class="feat-dot feat-dot--bright"></span>
+                Market performance summary during closing
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ VALUE -->
+  <section class="value-section" id="value">
+    <div class="container">
+      <div class="section-label light">Value</div>
+      <h2 class="section-title light">What we deliver</h2>
+
+      <div class="value-grid">
+        <div class="value-hero-card">
+          <div class="value-number">2,000</div>
+          <div class="value-unit">hours p.a.</div>
+          <p class="value-desc">Additional savings from transparency of comments in standard FC tools</p>
+        </div>
+        <div class="value-cards">
+          <div class="value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <h3>Standardize Quality</h3>
+          </div>
+          <div class="value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Real-Time Insights</h3>
+          </div>
+          <div class="value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3>Steering &amp; Decisions</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ PROGRESS / WHAT WORKS -->
+  <section class="progress-section">
+    <div class="container">
+      <div class="section-label">Readiness</div>
+      <h2 class="section-title">What actually works already</h2>
+      <p class="section-sub">Our current implementation status across key capability areas.</p>
+
+      <div class="progress-grid">
+        <div class="progress-item">
+          <div class="progress-header">
+            <span class="progress-name">AI-generated quantitative comments</span>
+            <span class="progress-pct">100%</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-width="100"></div></div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-header">
+            <span class="progress-name">AI-generated qualitative comments <span class="progress-note">(Hackathon Scope: limited to a few markets and few AwA types only)</span></span>
+            <span class="progress-pct">25%</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-width="25"></div></div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-header">
+            <span class="progress-name">Human-in-the-loop validation</span>
+            <span class="progress-pct">80%</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-width="80"></div></div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-header">
+            <span class="progress-name">Actuals reporting in MAISTRO</span>
+            <span class="progress-pct">100%</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" data-width="100"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ HOW IT WORKS -->
+  <section class="how-section">
+    <div class="container">
+      <div class="section-label">Architecture</div>
+      <h2 class="section-title">How we have implemented it</h2>
+
+      <div class="how-grid">
+        <div class="how-card">
+          <div class="how-number">01</div>
+          <h3>Business Intelligence</h3>
+          <ul>
+            <li>Commenting rules &amp; patterns from historical research</li>
+            <li>Effects &amp; AwA combination analysis</li>
+            <li>RAG architecture for contextual generation</li>
+            <li>Solid Agent rule framework</li>
+          </ul>
+        </div>
+        <div class="how-card how-card--accent">
+          <div class="how-number">02</div>
+          <h3>Clean User Journey</h3>
+          <ul>
+            <li>ERIC triggers automated comment generation</li>
+            <li>Quantitative comments via MAISTRO skill</li>
+            <li>Agent validates qualitative vs quantitative comments</li>
+            <li>Controller validates → saved to database → MAISTRO monthly report</li>
+          </ul>
+        </div>
+        <div class="how-card">
+          <div class="how-number">03</div>
+          <h3>Technical Stack</h3>
+          <ul>
+            <li><strong>MAISTRO Agent</strong> orchestrates the full monthly report pipeline</li>
+            <li><strong>PostgreSQL</strong> as an alternative to Fabric for data storage</li>
+            <li><strong>Comment Extraction Agent</strong> built with Claude Code</li>
+            <li><strong>Comment Generation Agent</strong> built with Claude Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ TESTIMONIALS -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-label">Testimonials</div>
+      <h2 class="section-title">What our users say</h2>
+      <p class="section-sub">See what our internal customers have to say about us.</p>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"I don't have to explain numbers that everyone can already see in ERIC. I also don't need to send five reminder emails to markets anymore. That alone is a win."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">FM</div>
+            <div class="author-info">
+              <strong>FMS/S Controller</strong>
+              <span>Financial Management</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-card--featured">
+          <p class="testimonial-quote">"Working with HQ is now much more efficient and finally a lot less annoying."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MC</div>
+            <div class="author-info">
+              <strong>Market Controller</strong>
+              <span>Regional Markets</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"Monthly closing got faster. My stress level followed."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">FM</div>
+            <div class="author-info">
+              <strong>FMS/M Controller</strong>
+              <span>Financial Management</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"We now have faster, more consistent insights to support decision-making without needing another request for 'just one more comment'."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">TM</div>
+            <div class="author-info">
+              <strong>Top Management</strong>
+              <span>Executive Leadership</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ TEAM -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-label">Our Team</div>
+      <h2 class="section-title">The people behind the intelligence</h2>
+
+      <div class="team-grid team-grid--5">
+
+        <!-- Anna -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg class="zodiac-avatar" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="38" fill="#0a1628" stroke="#0078D6" stroke-width="1.5"/>
+              <!-- Scorpio glyph -->
+              <text x="40" y="36" text-anchor="middle" font-size="22" fill="#92D0FF" font-family="serif" font-weight="bold">♏</text>
+              <text x="40" y="56" text-anchor="middle" font-size="9" fill="#1398FF" font-family="Inter,sans-serif" letter-spacing="1" font-weight="600">SCORPIO</text>
+            </svg>
+          </div>
+          <h3 class="team-name">Anna</h3>
+          <span class="team-role">Business Owner</span>
+          <p class="team-bio">Anna brings the business vision and ensures real impact for controllers.</p>
+        </div>
+
+        <!-- Thomas -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg class="zodiac-avatar" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="38" fill="#0a1628" stroke="#c0a030" stroke-width="1.5"/>
+              <!-- Leo glyph -->
+              <text x="40" y="36" text-anchor="middle" font-size="22" fill="#f0c040" font-family="serif" font-weight="bold">♌</text>
+              <text x="40" y="56" text-anchor="middle" font-size="9" fill="#c0a030" font-family="Inter,sans-serif" letter-spacing="1" font-weight="600">LEO</text>
+            </svg>
+          </div>
+          <h3 class="team-name">Thomas</h3>
+          <span class="team-role">AI Systems</span>
+          <p class="team-bio">Thomas and Björn design and build the AI systems behind the solution.</p>
+        </div>
+
+        <!-- Björn -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg class="zodiac-avatar" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="38" fill="#0a1628" stroke="#0078D6" stroke-width="1.5"/>
+              <!-- Scorpio glyph -->
+              <text x="40" y="36" text-anchor="middle" font-size="22" fill="#92D0FF" font-family="serif" font-weight="bold">♏</text>
+              <text x="40" y="56" text-anchor="middle" font-size="9" fill="#1398FF" font-family="Inter,sans-serif" letter-spacing="1" font-weight="600">SCORPIO</text>
+            </svg>
+          </div>
+          <h3 class="team-name">Björn</h3>
+          <span class="team-role">AI Systems</span>
+          <p class="team-bio">Thomas and Björn design and build the AI systems behind the solution.</p>
+        </div>
+
+        <!-- Alex -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg class="zodiac-avatar" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="38" fill="#0a1628" stroke="#0078D6" stroke-width="1.5"/>
+              <!-- Scorpio glyph -->
+              <text x="40" y="36" text-anchor="middle" font-size="22" fill="#92D0FF" font-family="serif" font-weight="bold">♏</text>
+              <text x="40" y="56" text-anchor="middle" font-size="9" fill="#1398FF" font-family="Inter,sans-serif" letter-spacing="1" font-weight="600">SCORPIO</text>
+            </svg>
+          </div>
+          <h3 class="team-name">Alex</h3>
+          <span class="team-role">Data &amp; Analytics</span>
+          <p class="team-bio">Alex and Dardan structure the data and bring the solution to life through technical implementation.</p>
+        </div>
+
+        <!-- Dardan -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <svg class="zodiac-avatar" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="38" fill="#0a1628" stroke="#c0a030" stroke-width="1.5"/>
+              <!-- Leo glyph -->
+              <text x="40" y="36" text-anchor="middle" font-size="22" fill="#f0c040" font-family="serif" font-weight="bold">♌</text>
+              <text x="40" y="56" text-anchor="middle" font-size="9" fill="#c0a030" font-family="Inter,sans-serif" letter-spacing="1" font-weight="600">LEO</text>
+            </svg>
+          </div>
+          <h3 class="team-name">Dardan</h3>
+          <span class="team-role">Full-Stack Developer</span>
+          <p class="team-bio">Alex and Dardan structure the data and bring the solution to life through technical implementation.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ CTA BANNER -->
+  <section class="cta-section">
+    <div class="cta-stars" id="cta-stars"></div>
+    <div class="container cta-inner">
+      <h2 class="cta-title">Ready for automated commenting?</h2>
+      <p class="cta-sub">Transform your month-end from reporting to steering.</p>
+      <a href="#contact" class="btn-primary">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-sub">Interested in bringing automated commenting to your organization? Reach out to us directly.</p>
+      </div>
+      <div class="contact-mailto-wrap">
+        <p class="contact-mailto-desc">Click the button below to open Outlook with a pre-filled message ready to send.</p>
+        <a href="mailto:annakhlous@gmail.com?subject=Automated%20Commenting" class="btn-primary contact-mailto-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:8px"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Open Outlook — Send Email
+        </a>
+        <p class="contact-mailto-note">To: annakhlous@gmail.com · Subject: Automated Commenting</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">AutoComment</span>
+        <p>Automated Commenting for Financial Reporting</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="#solution">Our Solution</a>
+          <a href="#value">Value</a>
+          <a href="#team">Our Team</a>
+          <a href="#testimonials">What Our Users Say</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Imprint</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AutoComment · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
